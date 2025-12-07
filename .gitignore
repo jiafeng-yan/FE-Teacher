@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+
+# Database
+chroma_db/
+learning_progress_db/
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+frontend/.nuxt/
+
+# Logs
+*.log
+logs/
+
+# Uploads
+uploads/
+documents/
+
+# Build
+dist/
+build/
+*.egg-info/
+
