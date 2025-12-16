@@ -76,7 +76,7 @@
 ## 项目结构
 
 ```
-dify-to-langchain/
+FE-Teacher/
 ├── backend/                    # 后端代码
 │   ├── __init__.py
 │   ├── main.py                # FastAPI 主应用

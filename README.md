@@ -40,7 +40,7 @@ Agentic Workflow
 ```bash
 # 克隆项目
 git clone <repository-url>
-cd dify-to-langchain
+cd FE-Teacher
 
 # 创建虚拟环境
 python -m venv venv
@@ -88,7 +88,6 @@ cp .env.example .env
 ```bash
 venv\Scripts\activate
 python -m uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
-
 ```
 
 ### 4. 启动前端服务
@@ -96,7 +95,6 @@ python -m uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
 ```bash
 cd frontend
 npm run dev
-
 ```
 
 ### 5. 访问应用
@@ -107,7 +105,7 @@ npm run dev
 ## 项目结构
 
 ```
-dify-to-langchain/
+FE-Teacher/
 ├── backend/
 │   ├── __init__.py
 │   ├── main.py                 # FastAPI 主应用
@@ -218,10 +216,8 @@ dify-to-langchain/
 
 **支持的嵌入模型**：
 
-- 本地模型：`sentence-transformers/all-MiniLM-L6-v2` (384 维)
-- 本地模型：`sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` (384 维)
-- OpenAI 模型：`text-embedding-3-small` (1536 维)
-- OpenAI 模型：`text-embedding-3-large` (3072 维)
+- 本地 Huggingface 模型
+- OpenAI 模型
 
 **切换步骤**：
 
